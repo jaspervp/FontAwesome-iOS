@@ -16,6 +16,9 @@ This project uses the FontAwesome fix made by Pit Garbe that you can find at htt
   s.source_files = '*.{h,m}'
   s.exclude_files = 'Demo'
   s.resources = "Resources/*.ttf"
+  s.resource_bundles = {
+    'FontAwesome' => ['Resources/*.ttf']
+  }
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
   s.requires_arc = true
 end
